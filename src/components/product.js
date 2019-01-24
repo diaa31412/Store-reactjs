@@ -19,7 +19,7 @@ class Product extends Component {
                </Link>
                <button
                  className="cart-btn"
-                 dsiabled={inCart ? true :false}
+                 dsiabled={inCart?true :false}
                  onClick={
                    ()=>
                    {
