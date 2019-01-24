@@ -21,7 +21,27 @@ body{
 }
 .text-bright{
   color:var(--lightBlue);
+
 }
+
+.btn-black{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+.btn-black:hover{
+  background: var(--mainDark);
+  color: var(--mainWhite) !important;
+}
+.cart-icon{
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+}
+
 
 
 
@@ -75,4 +95,24 @@ body{
 .cart-btn:hover {
   color: var(--mainBlue);
   cursor: pointer;
+}
+
+
+.ButtonContainer{
+  text-transform:capitalize;
+  font-size:1.4rem;
+  background: transparent;
+  border:0.05remm soild var(--lightBlue);
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+  margin: 0.2rem 0.5rem 0.2rem 0;
+  transition: all 0.5s ease-in-out;
+  &:hover{
+
+    color:var(--mainBlue);
+  }
+  &:focus{
+    outline: none;
+  }
 }

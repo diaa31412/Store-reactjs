@@ -33,6 +33,11 @@ class Navbar extends Component {
 }
 
 
+
+
+
+
+export default Navbar;
 const NavWrapper =styled.nav`
   background:var(--mainBlue);
   .nav-link{
@@ -41,7 +46,3 @@ const NavWrapper =styled.nav`
      text-transform: capitalize ';
   }
 `
-
-
-
-export default Navbar;
